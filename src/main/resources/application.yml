@@ -1,0 +1,9 @@
+spring:
+    datasource:
+        url: jdbc:clickhouse://192.168.31.101:8123/system
+        username: adm_user
+        password: G9hTotCGf9yJ5T2T
+        driver-class-name: ru.yandex.clickhouse.ClickHouseDriver
+mybatis:
+    mapper-locations: classpath:mapper/*Mapper.xml
+    type-aliases-package: com.wyu.tt16clickhouse.entity
